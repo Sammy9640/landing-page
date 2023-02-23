@@ -1,0 +1,78 @@
+body {
+    width: 1200px;
+    padding: 8%;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    background-color: hsl(0, 50%, 85%);
+    
+}
+main {
+display: flex;
+align-items: center;
+}
+.top-submit-btn {
+    width: 400px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color:hsl(240, 25%, 98%);
+    background-color: blueviolet;
+    box-shadow: 3px 6px 10px hsla(250, 65%, 14%, .9);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.top-submit-btn:hover { background-color: rgb(58, 57, 57);
+}
+.form {
+    padding: 3.8%;
+    flex-direction: column;
+  }
+  form {
+    margin-top: 6%;
+    box-shadow: 2px 5px 6px hsla(257, 60%, 14%, .7);
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 100%);
+  }
+  .form input {
+    width: 350px;
+    padding: 3%;
+    border-radius: 8px;
+  }
+  .form input:focus {
+    outline: none;
+    border: 1px solid hsl(248, 32%, 49%);
+    box-shadow: 0 0 10px #9ecaed;
+  }
+  .btm-submit-btn {
+    width: 370px;
+    padding: 3%;
+    border: 0;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    color: hsl(240, 75%, 98%);
+    background-color: hsl(154, 94%, 41%);
+    box-shadow: 1px 3px 6px hsla(250, 65%, 14%, .9);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+.btm-submit-btn:hover {
+    background-color: rgb(11, 87, 54);
+}
+.form p {
+    font-size: 0.8rem;
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    line-height: 1.8;
+  }
+  ::placeholder {
+    color: hsla(249, 10%, 26%, .6);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
